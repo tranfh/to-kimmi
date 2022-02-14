@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px rgba(3, 5, 117, 0.747);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#showMe {
+  animation: fadeInAnimation 30s ease 0s normal forwards 1;
+}
+
+@keyframes fadeInAnimation {
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
 }
